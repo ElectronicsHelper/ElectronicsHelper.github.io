@@ -7,6 +7,6 @@
             "dom.iterable"
         ],
         "module": "commonjs",
-        "target": "ES6"
+        "target": "es5"
     }
 }
