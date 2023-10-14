@@ -1,7 +1,7 @@
 {
     "tasks": {
         "esbuild-help": "deno run -A https://deno.land/x/esbuild@v0.19.2/mod.js --help",
-        "build": "deno run -A https://deno.land/x/esbuild@v0.19.2/mod.js --bundle --outdir=dist --outbase=src --minify ./src/app/**/index.ts",
+        "build": "deno run -A https://deno.land/x/esbuild@v0.19.2/mod.js --bundle --outdir=dist --outbase=src --minify",
         "build-watch": "",
         "lint": "deno lint"
     },
